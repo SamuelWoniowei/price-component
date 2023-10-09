@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Single Price Grid Component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          cyan: 'hsl(179, 62%, 43%)',
+          lightCyan: 'hsl(179, 62%, 57%)',
+          brightYellow: 'hsl(71, 73%, 54%)',
+          lightGray: 'hsl(204, 43%, 93%)',
+          grayishBlue: 'hsl(218, 22%, 67%)',
+        }
+      }
+    }
+  }
+</script>
+</head>
+
+<body class="flex justify-center items-center min-h-screen bg-lightGray p-7">
+  <main class="md:w-2/4 bg-white shadow-lg rounded mt-5 ">
+    <section class=" p-10">
+      <h2 class="text-cyan text-2xl font-semiBold mb-5">Join our community</h2>
+      <h4 class="text-brightYellow font-semiBold text-lg mb-2">30-day, hassle-free money back guarantee</h4>
+
+      <p class="text-grayishBlue">Gain access to our full library of tutorials along with expert code reviews. Perfect for any developers who are
+        serious about honing their skill </p>
+    </section>
+    <section class="flex flex-col md:flex-row text-white">
+      <div class="flex-1 bg-cyan p-10 ">
+        <h3 class="text-lg"> Monthly Subscription</h3>
+        <p class="flex flex-row items-center gap-2 mt-4 mb-3">
+          <span class="text-4xl">$29</span> 
+          <span class="text-lightGray">per month</span>
+        </p>
+        <p class="text-lightGray">Full access for less than $1 a day</p>
+        <button class="rounded shadow-md w-full py-3 mt-6 bg-brightYellow">Sign Up</button>
+      </div>
+      <div class="bg-lightCyan flex-1 p-10">
+        <h3 class="text-lg mb-6">Why Us</h3>
+        <ul class="text-lightGray font-light text-sm">
+          <li>Tutorials by industry experts</li>
+          <li>Peer & exper code review</li>
+          <li>Coding exercies</li>
+          <li>Access to our GitHub repos</li>
+          <li>Community Forum</li>
+          <li>Flashcard decks</li>
+          <li>New videos every week</li>
+           
+        </ul>
+      </div>
+    </section>
+
+  </main>
+</body>
+
+</html>
