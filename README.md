@@ -22,15 +22,13 @@ Users should be able to:
 - See a hover state on desktop for the Sign Up call-to-action
 
 ### Screenshot
+<img width="1289" alt="Screenshot 2023-10-10 at 00 26 34" src="https://github.com/SamuelWoniowei/price-component/assets/18232000/be056d39-4b49-40d7-b5bc-b9b0cd485dcd">
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
+- Solution URL: [https://github.com/SamuelWoniowei/price-component](https://github.com/SamuelWoniowei/price-component)
+- Live Site URL: [https://samuelwoniowei.github.io/price-component](https://samuelwoniowei.github.io/price-component)
 ### Built with
 
 - Tailwind
